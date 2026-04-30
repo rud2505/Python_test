@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dce826b-6f59-4457-864a-ce331ec0e012" name="Изменения" comment="Urok 9">
+    <list default="true" id="2dce826b-6f59-4457-864a-ce331ec0e012" name="Изменения" comment="Urok 9 Задачи сбор">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tk_study/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tk_study/main.py" afterDir="false" />
     </list>
@@ -58,7 +58,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.2560297&quot;
   }
 }</component>
@@ -131,8 +131,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.main.py$FileDirName$" />
     </list>
     <recent_temporary>
@@ -197,5 +197,13 @@
     <MESSAGE value="Urok 8" />
     <MESSAGE value="Urok 9" />
     <option name="LAST_COMMIT_MESSAGE" value="Urok 9" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

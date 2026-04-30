@@ -1,125 +1,43 @@
-#b = int(input()) #школьники
-#c = int(input()) #мандарины
-
-#a = c // b
-#d = c % b
-#print(a)
-#print(d)
-
-
-#b = int(input()) #минуты
-
-#a = b // 60 #часы
-#d = b % 60  #мин
-#print( str(b) + " " + "мин" + " " + '-' + " " + 'это' + " " + str(a) + " " + 'час' + " " + str(d) + " " + 'минут.')
-
-#-----------------------------------------------
-
-#
 # n = int(input())
 #
-# a = n // 100          # сотни
-# b = (n // 10) % 10    # десятки
-# c = n % 10            # единицы
-#
-# sum_digits = a + b + c
-# prod_digits = a * b * c
-
-# print("Сумма цифр =", sum_digits)
-# print("Произведение цифр =", prod_digits)
-#---------------------------------------
-# n = int(input())
-#
-# a = n // 100          # сотни
-# b = (n // 10) % 10    # десятки
-# c = n % 10            # единицы
-#
-# print(a, b, c, sep='')
-# print(a, c, b, sep='')
-# print(b, a, c, sep='')
-# print(b, c, a, sep='')
-# print(c, a, b, sep='')
-# print(c, b, a, sep='')
-#--------------------------
-# n = int(input())
-#
-# thousands = n // 1000           # тысячи
-# hundreds = (n // 100) % 10      # сотни
-# tens = (n // 10) % 10           # десятки
-# units = n % 10                  # единицы
-#
-# print("Цифра в позиции тысяч равна", thousands)
-# print("Цифра в позиции сотен равна", hundreds)
-# print("Цифра в позиции десятков равна", tens)
-# print("Цифра в позиции единиц равна", units)
-#----------------------------
-
-
-# a = int(input())
-# b = int(input())
-# c = int(input())
-#
-# if b - a == c - b:
-#     print("YES")
+# if n <= 2:
+#     human_years = n * 10.5
 # else:
-#     print("NO")
-#----------------------------------
-
-# n = int(input())
+#     human_years = 2 * 10.5 + (n - 2) * 4
 #
-# # Выделяем цифры четырёхзначного числа
-# thousands = n // 1000          # первая цифра (тысячи)
-# hundreds = (n // 100) % 10     # вторая цифра (сотни)
-# tens = (n // 10) % 10          # третья цифра (десятки)
-# units = n % 10                 # четвёртая цифра (единицы)
-
-# # Проверяем условие: сумма первой и последней = разности второй и третьей
-# if thousands + units == hundreds - tens:
-#     print("ДА")
-# else:
-#     print("НЕТ")
-#----------------------
-# a = int(input())
-# b = int(input())
-# c = int(input())
+# print(human_years)
+#----------------
+# x = float(input())
 #
-# sum_positive = 0
+# # Умножаем на 10, чтобы цифра после точки стала первой до точки
+# # Берём целую часть, затем находим последнюю цифру (остаток от деления на 10)
+# first_digit = int(x * 10) % 10
 #
-# if a > 0:
-#     sum_positive = sum_positive + a
-# if b > 0:
-#     sum_positive = sum_positive + b
-# if c > 0:
-#     sum_positive = sum_positive + c
-#
-# print(sum_positive)
-#-------------------------
-
-# age = int(input())
-#
-# if age <= 13:
-#     print("детство")
-# elif age <= 24:
-#     print("молодость")
-# elif age <= 59:
-#     print("зрелость")
-# else:
-#     print("старость")
-#-------------------------
+# print(first_digit)
+#------------------
+# x = float(input())
+# fractional_part = x - int(x)
+# print(fractional_part
+#------------------
+# x = float(input())
+# print(x % 1)
+#хорошо отделяет дробную часть
 
 # a = int(input())
 # b = int(input())
 # c = int(input())
 # d = int(input())
+# e = int(input())
 #
-# min_num = a
+# print(f"Наименьшее число = {min(a, b, c, d, e)}")
+# print(f"Наибольшее число = {max(a, b, c, d, e)}")
+#======
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+# e = int(input())
 #
-# if b < min_num:
-#     min_num = b
-# if c < min_num:
-#     min_num = c
-# if d < min_num:
-#     min_num = d
-#
-# print(min_num)
-#------------
+# print("Наименьшее число =", min(a, b, c, d, e))
+# print("Наибольшее число =", max(a, b, c, d, e))
+#====
